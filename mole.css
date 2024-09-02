@@ -1,0 +1,72 @@
+body{
+    background-image: url("/images/backgroundMole.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#border{
+    display: flex;
+    margin :0 auto;
+    flex-wrap: wrap;
+    height:540px;
+    width:540px;
+    
+}
+
+#border div{
+    width:180px;
+    height:180px;
+    background-image:url(/images/hole.png) ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin-top: 40px;
+    background-position: center;
+    position: relative;
+} 
+
+
+#border div img{
+    width:180px;
+    height:0180px;
+    background-size: contain;
+    position: absolute;
+    object-fit: contain;
+    }
+
+#score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top:10px;
+    width: 100%;
+}
+#msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 50px;
+    height: 20px;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;;
+}
+
+#reset{
+  align-items:center;
+  justify-content: right;
+   font-size: 20px;
+}
